@@ -5,7 +5,7 @@ const Header: React.FC=()=>{
     return(
         <main className={css.container}>
             <nav>
-                <ul>
+                <ul className={css.ulContainer}>
                     <li>slices</li>
                     <li>async Thunk</li>
                     <li>Clean workspace</li>
